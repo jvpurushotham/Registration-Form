@@ -1,0 +1,31 @@
+# Try the below given code to check whether 'tkinter' library is preinstalled or not
+import tkinter
+print("Tkinter is available!")
+
+# If above runs without any error it means 'tkinter' libray is preinstalled in your ananconda
+# If you get the below error error
+# ModuleNotFoundError: No module named 'tkinter'
+
+# Try to run the below command in your anaconda prompt to install the 'tkinter' library
+conda install -c anaconda tk
+
+# For verification run the below code
+import tkinter
+print("Tkinter installed and working!")
+
+# If there is no error which means the library has been installed
+
+# Try the below to run your first program using 'tkinter' library
+import tkinter as tk
+
+# Create a simple window
+root = tk.Tk()
+root.title("Hello Tkinter")
+root.mainloop()
+
+
+# Microsoft Excel
+# Make an excel sheet and try to copy the path of that sheet for further use
+
+# If you don't have anaconda you can use 'PyCharm' for running this code
+# As a last option i would suggest 'google colab' also if you are you are not familiar with the above tools
